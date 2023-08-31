@@ -29,7 +29,7 @@ html{
     position: sticky;
     top: 0;
     cursor: pointer;
-    height: 447px;
+    height: 10%;
 }
 
 .nav-list{
@@ -71,7 +71,19 @@ html{
 .background{
     background: rgba(0, 0, 0, 0.7)url(https://images.unsplash.com/photo-1610307766999-01f45d259959?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmclMjBpbiUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
     background-size: cover;
-    background-blend-mode: darken;
+    /* background-blend-mode: darken; */
+    background-position: center;
+    background-clip:  text ;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+
+.background1{
+        background: rgba(0, 0, 0, 0.7)url(https://images.unsplash.com/photo-1610307766999-01f45d259959?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVpbGRpbmclMjBpbiUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+        background-size: cover;
+        background-blend-mode: darken;
 }
 .firstSection{
     height: 100vh;
